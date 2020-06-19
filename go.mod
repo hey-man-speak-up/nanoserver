@@ -9,20 +9,28 @@ replace (
 
 require (
 	github.com/chanxuehong/rand v0.0.0-20180830053958-4b3aff17f488 // indirect
+	github.com/denisenkom/go-mssqldb v0.0.0-20200428022330-06a60b6afbbc // indirect
 	github.com/go-sql-driver/mysql v1.4.0
 	github.com/go-xorm/core v0.6.0
 	github.com/go-xorm/xorm v0.7.0
+	github.com/gorilla/context v1.1.1 // indirect
 	github.com/gorilla/mux v1.6.2
+	github.com/lib/pq v1.7.0 // indirect
 	github.com/lonng/nano v0.4.1-0.20190704005402-15209d995681
 	github.com/lonng/nex v1.4.1
+	github.com/mattn/go-sqlite3 v2.0.3+incompatible // indirect
 	github.com/pborman/uuid v1.2.0
 	github.com/pkg/errors v0.8.0
 	github.com/sirupsen/logrus v1.1.0
 	github.com/spf13/viper v1.2.1
+	github.com/tealeg/xlsx/v3 v3.1.1
 	github.com/urfave/cli v1.20.1-0.20190203184040-693af58b4d51
 	github.com/xxtea/xxtea-go v0.0.0-20170828040851-35c4b17eecf6
-	golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529
-	golang.org/x/net v0.0.0-20190509222800-a4d6f7feada5
+	github.com/ziutek/mymysql v1.5.4 // indirect
+	golang.org/x/crypto v0.0.0-20200323165209-0ec3e9974c59
+	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
 	golang.org/x/text v0.3.2
 	gopkg.in/chanxuehong/wechat.v2 v2.0.0-20180924084534-7e0579cb5377
 )
+
+go 1.13
